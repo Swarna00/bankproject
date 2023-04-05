@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="css/style.css"src="stylesheet">
+    <style>
+        div#nav {
+    background-color: antiquewhite;
+}
+h1 {
+    margin-left: 638px;
+    font-style: oblique;
+    font-family: monospace;
+}
+h4 {
+    margin-left: 632px;
+    font-style: oblique;
+    font-size: 20px;
+}
+.grp {
+    width: 926px;
+    margin-left: 234px;
+    margin-top: 82px;
+}
+div#depos {
+    background-color: cornflowerblue;
+    border-radius: 15px;
+    color: aliceblue;
+}
+div#withdr {
+    background-color: dodgerblue;
+    color: aliceblue;
+    border-radius: 15px;
+    border: none;
+}
+div#balance {
+    background-color: yellow;
+    color: aliceblue;
+    border-radius: 15px;
+}
+div#depac {
+    background-color: blueviolet;
+    width: 388px;
+    color: aliceblue;
+    border-radius: 15px;
+}
+div#withdrac {
+    background-color: violet;
+    width: 391px;
+    margin-left: 530px;
+    margin-top: -140px;
+    border-radius: 15px;
+    color: aliceblue;
+}
+    </style>
+</head>
+<body>
+  <div id="nav">
+      <h1>PayBank</h1>
+      <h4>SAVE MONEY</h4>
+  </div>
+  <div class="grp">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            
+            <div class="card-body" id="depos">
+              <h5 class="card-title">Deposit</h5>
+              <p class="card-text">$ <span id="deposit">00</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            
+            <div class="card-body" id="withdr">
+              <h5 class="card-title">Withdraw</h5>
+              <p class="card-text">$ <span id="withdraw">00</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            
+            <div class="card-body" id="balance">
+              <h5 class="card-title">Balance</h5>
+              <p class="card-text">$ <span id="mainBalance">00</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            
+            <div class="card-body" id="depac">
+              <h5 class="card-title">Deposit Your Account</h5>
+              <p class="card-text"><input id="depositinput" type="number" placeholder="enter your Ammount"></p>
+              <button id="depositBtn">Deposit</button>
+            </div>
+          </div>
+        </div>
+        
+        </div>
+          
+        
+        <div class="card h-100">   
+            <div class="card-body" id="withdrac">
+              <h5 class="card-title">Withdraw Your Account</h5>
+              <p class="card-text"><input  id="withdrawacc" type="number" placeholder="enter your Ammount"></p>
+              <button id="withdrawbtn">Withdraw</button>
+            </div>
+          </div>
+  
+
+      </div>
+   <script src="main.js">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
